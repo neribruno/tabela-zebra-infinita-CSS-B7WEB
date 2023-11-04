@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222222ff;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    position: fixed;
+    margin-top: 20%;
+}
+
+table,
+tr,
+td {
+    border: 1px solid #000;
+    font-size: 25px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+thead {
+    background-color: blueviolet;
+}
+
+tbody {
+    background-color: bisque;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #dcf3a3;
+}
